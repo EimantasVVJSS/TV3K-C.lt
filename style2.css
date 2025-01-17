@@ -1,0 +1,56 @@
+body {
+    font-family: "Funnel Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+  
+  background-image: url(SG010_6.jpg.webp);
+  object-fit: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(35, 18, 190); 
+
+}
+
+nav {
+    background-color: aliceblue;
+    display: flex;
+    width: 10%;
+    flex-direction: row;
+    margin-top: 15px;
+    border-radius: 25px;
+    
+  }
+  
+  header {
+   display: flex;
+    width: 100%;
+    border-radius: 15%;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border-radius: 15%;
+    text-align: left;
+  }
+  
+  .container {
+    background-color: aliceblue;
+    display: flex;
+    width: 30%;
+    margin-top: 15px;
+    border-radius: 25px;
+    text-align: left;
+  }
